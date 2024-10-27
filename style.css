@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+border: 2px solid gray;
+padding: 10px 20px;
+font-size: 20px;
+margin-bottom: 10vh;
+color: black;
+background-color: white;
+
+}
+ .box span{
+    /* text-decoration: underline white solid; */
+    font-weight: bold;
+} 
+.btn{
+    font-size: 16px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgb(179, 173, 173);
+}
+.btn:active{
+    background-color: rgb(86, 85, 85);
+    border: 2px solid;
+}
